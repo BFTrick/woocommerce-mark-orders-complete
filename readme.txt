@@ -13,7 +13,7 @@ Automagically mark all WooCommerce orders complete regardless of product type.
 
 Automagically mark all of your WooCommerce orders complete regardless of product type. Normally WooCommerce only marks virtual & downloadable products as complete this plugin changes that and marks all orders as complete.
 
-Massive props to Justin Stern & SkyVerge for writing up the [blog post](http://www.skyverge.com/blog/how-to-set-woocommerce-virtual-order-status-to-complete-after-payment/) that inspired this plugin:
+Massive props to Justin Stern & SkyVerge for writing up the [blog post](http://www.skyverge.com/blog/how-to-set-woocommerce-virtual-order-status-to-complete-after-payment/) that inspired this plugin.
 
 == Installation ==
 
