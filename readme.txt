@@ -1,5 +1,6 @@
 === WooCommerce Mark Orders as Complete ===
 Contributors: bftrick
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8WDSNJLCNJSKN
 Tags: ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce, order, woocommerce, status, order status, complete, product
 Requires at least: 3.6
 Tested up to: 3.6
