@@ -3,7 +3,7 @@ Contributors: bftrick
 Tags: ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce, order, woocommerce, status, order status, complete, product
 Requires at least: 3.6
 Tested up to: 3.6
-Stable tag: 0.1.0
+Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -57,5 +57,5 @@ At the moment these don't work because they require a different hook. If you use
 
 == Changelog ==
 
-= 0.1.0 - 12/08/2013 =
+= 1.0.0 - 12/08/2013 =
 * Initial upload - Hello World! :)
