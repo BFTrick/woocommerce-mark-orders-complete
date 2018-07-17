@@ -21,7 +21,7 @@
  */
 function wc_mark_all_orders_as_complete( $order_status, $order_id ) {
 	$order = wc_get_order( $order_id );
-	if ( $order_status == 'processing' && ( $order->status == 'on-hold' || $order->status == 'pending' || $order->status == 'failed' ) ) {
+	if ( $order_status == 'processing' && ( $order->get_status() == 'on-hold' || $order->get_status() == 'pending' || $order->get_status() == 'failed' ) ) {
 		return 'completed';
 	}
 
