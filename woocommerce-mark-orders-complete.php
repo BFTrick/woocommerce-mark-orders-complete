@@ -14,10 +14,13 @@
  */
 
 
-/**
- * wc_mark_all_orders_as_complete()
- *
+/***
  * Mark all orders to complete status regardless of product type
+ *
+ * @param string $order_status The order status.
+ * @param int    $order_id     The order id.
+ *
+ * @return string
  */
 function wc_mark_all_orders_as_complete( $order_status, $order_id ) {
 	$order = wc_get_order( $order_id );
