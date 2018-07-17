@@ -20,8 +20,8 @@
  * Mark all orders to complete status regardless of product type
  */
 function wc_mark_all_orders_as_complete( $order_status, $order_id ) {
-	$order = new WC_Order( $order_id );
-	if ( $order_status == 'processing' && ( $order->status == 'on-hold' || $order->status == 'pending' || $order->status == 'failed' ) ) { 
+	$order = wc_get_order( $order_id );
+	if ( $order_status == 'processing' && ( $order->status == 'on-hold' || $order->status == 'pending' || $order->status == 'failed' ) ) {
 		return 'completed';
 	}
 
